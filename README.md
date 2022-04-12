@@ -1,2 +1,2 @@
 # Brandly
-https://github.com/KanykeiAbdi/Brandly/
+https://kanykeiabdi.github.io/brandly/
