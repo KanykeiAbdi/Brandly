@@ -50,7 +50,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 16px;
   padding: 0;
   list-style: none;
 }
@@ -331,13 +334,40 @@ body {
 }
 
 .blog__item-link {
+  padding: 4px 25px;
   border: 1px solid #333;
   color: #333;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
 }
 
 .blog__item-link:hover {
   background-color: #d94343;
   border-color: #d94343;
+}
+
+.footer {
+  margin-top: 86px;
+  background-image: url("../images/ftr-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+  padding: 65px 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
 }

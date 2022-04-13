@@ -67,9 +67,17 @@
     }
 
     &-link {
+      padding: 4px 25px;
       border: 1px solid $dark;
       color: $dark;
       transition: all 0.3s;
+      font-family: $secondary-font;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      text-transform: uppercase;
+
      
       &:hover {
         background-color: $accent;
