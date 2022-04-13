@@ -27,7 +27,7 @@
     }
 
     &-accessories {
-      background-image: url("../Brandly/images/cat-access-bg.jpg");
+      background-image: url("../images/cat-access-bg.jpg");
     }
   }
 
@@ -40,5 +40,9 @@
     text-transform: capitalize;
     color: $light;
     text-decoration: none;
+
+    &:hover {
+      color: $accent;
+    }
   }
 }
